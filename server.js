@@ -1,6 +1,5 @@
 const Http = require('http');
-const Server = Http.createServer((req,res)=> {
+const server = Http.createServer((req, res) => {
     res.end('Hello World');
-
 });
-Server.listen(Processing.env.Port || 3000);
+server.listen(process.env.PORT || 3000);
