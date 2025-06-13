@@ -2,13 +2,14 @@
   "name": "go-fullstack-v3-fr",
   "version": "1.0.0",
   "description": "",
-  "main": "server.js",
+  "main": "index.html",
   "scripts": {
-    "start": "npx http-server . -p 4200 -P \"http://localhost:4200?\""
+    "start": "node server.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "express": "^5.1.0",
     "http-server": "^13.0.1"
   }
 }
